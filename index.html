@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassX - Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">PassX</div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Password Manager</h1>
+        <p>Your security and privacy are our top priority. Safely store, manage, and access your passwords with ease.
+            Your vault is encrypted, ensuring that only you can unlock your data.</p>
+        <h2>Your Passwords</h2>
+        <table>
+            <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Delete</th>
+            </tr>
+            <tr>
+                <td>Google</td>
+                <td>ameenkhan6968@gmail.com</td>
+                <td>ameenkhan6968@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>pa</td>
+                <td>100</td>
+            </tr>
+        </table>
+
+        <h2>Add your password</h2>
+        <form action="/submit" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
